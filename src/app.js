@@ -10,9 +10,9 @@ window.onload = function() {
   console.log("Hello Rigo from the console!");
 };
 
-let pronoun = ["the", "our"];
-let adj = ["great", "big"];
-let noun = ["jogger", "racoon"];
+let pronoun = ["the", "our", "their"];
+let adj = ["great", "big", "happy", "sad"];
+let noun = ["jogger", "racoon", "worm", "lawyer"];
 let address = [".com", ".cl", ".io"];
 
 for (const value of pronoun) {
