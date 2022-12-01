@@ -15,8 +15,6 @@ let adj = ["great", "big"];
 let noun = ["jogger", "racoon"];
 let address = [".com", ".cl", ".io"];
 
-let excuse = [];
-
 for (const value of pronoun) {
   let randomValue1 = adj[Math.floor(Math.random() * adj.length)];
   for (let randomValue1 of adj) {
